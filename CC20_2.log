@@ -1,0 +1,389 @@
+﻿Log file open, 08/12/17 01:14:44
+LogInit:Display: Running engine for game: CC20
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(321123387) SRandInit(321123390).
+LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.186571
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  /Temp/Autosaves/Game/Levels/UEDPCTheShore -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.12-06.14.45:974][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-06.14.45:974][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.12-06.14.46:004][  0]LogInit: Computer: WIN2K12R2
+[2017.08.12-06.14.46:004][  0]LogInit: User: Administrator
+[2017.08.12-06.14.46:004][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.08.12-06.14.46:004][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2017.08.12-06.14.46:005][  0]LogMemory: Memory total: Physical=10.0GB (10GB approx)
+[2017.08.12-06.14.46:005][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.12-06.14.46:005][  0]LogMemory: Process Physical Memory: 263.53 MB used, 263.53 MB peak
+[2017.08.12-06.14.46:005][  0]LogMemory: Process Virtual Memory: 265.77 MB used, 265.77 MB peak
+[2017.08.12-06.14.46:005][  0]LogMemory: Physical Memory: 5841.34 MB used,  4397.44 MB free, 10238.78 MB total
+[2017.08.12-06.14.46:005][  0]LogMemory: Virtual Memory: 632.36 MB used,  4397.44 MB free, 134217728.00 MB total
+[2017.08.12-06.14.46:416][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.08.12-06.14.47:367][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.12-06.14.47:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.12-06.14.47:455][  0]LogD3D11RHI:       8050/0/5119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.12-06.14.47:477][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.12-06.14.47:477][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.12-06.14.47:477][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.12-06.14.47:483][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.12-06.14.47:483][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.12-06.14.47:483][  0]LogWindows: EnumDisplayDevices:
+[2017.08.12-06.14.47:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.12-06.14.47:484][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.08.12-06.14.47:484][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.12-06.14.47:484][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.12-06.14.47:485][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.12-06.14.47:485][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.12-06.14.47:485][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.12-06.14.47:485][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.12-06.14.47:485][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.12-06.14.47:504][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.12-06.14.47:530][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.12-06.14.47:627][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../Users/Administrator/projects/CC20/Intermediate/Shaders/WorkingDirectory/5892/).
+[2017.08.12-06.14.47:644][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/1/UnrealShaderWorkingDir/7BEE564249325DEEBC7F3EA8E5506B62/'.
+[2017.08.12-06.14.47:644][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.12-06.14.50:932][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.12-06.14.51:033][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.12-06.14.51:134][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.12-06.14.51:208][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.12-06.14.51:208][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.12-06.14.53:343][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.12-06.14.54:717][  0]LogDerivedDataCache: Loaded boot cache 1.37s 51MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.12-06.14.54:717][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.08.12-06.14.54:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Administrator/projects/CC20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.12-06.14.54:717][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.12-06.14.54:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Administrator/projects/CC20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.12-06.14.54:717][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.12-06.14.54:789][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.12-06.14.54:802][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.12-06.14.54:821][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.12-06.14.54:831][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-06.14.54:831][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-06.14.59:675][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.08.12-06.14.59:686][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.011510 seconds
+[2017.08.12-06.14.59:728][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-06.14.59:732][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.08.12-06.15.00:139][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.12-06.15.00:241][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.12-06.15.00:341][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.12-06.15.00:341][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.12-06.15.00:341][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.12-06.15.01:376][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: cc20, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3749894216
+[2017.08.12-06.15.01:502][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.12-06.15.03:255][  0]LogMoviePlayer: Initializing movie player
+[2017.08.12-06.15.03:932][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.12-06.15.04:004][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.12-06.15.04:838][  0]SourceControl: Info Source control is disabled
+[2017.08.12-06.15.04:838][  0]SourceControl: Info Source control is disabled
+[2017.08.12-06.15.05:112][  0]SourceControl: Info Source control is disabled
+[2017.08.12-06.15.06:622][  0]LogUObjectArray: 34469 objects as part of root set at end of initial load.
+[2017.08.12-06.15.06:622][  0]LogUObjectAllocator: 7652712 out of 0 bytes used by permanent object pool.
+[2017.08.12-06.15.06:622][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.12-06.15.06:889][  0]LogEngine: Initializing Engine...
+[2017.08.12-06.15.07:038][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.12-06.15.07:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.12-06.15.07:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.12-06.15.07:292][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.12-06.15.07:306][  0]LogInit: FAudioDevice initialized.
+[2017.08.12-06.15.07:327][  0]LogInit: Texture streaming: Enabled
+[2017.08.12-06.15.07:372][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.12-06.15.08:423][  0]LogInit:Display: Game Engine Initialized.
+[2017.08.12-06.15.08:791][  0]LogInit:Display: Starting Game.
+[2017.08.12-06.15.08:791][  0]LogNet: Browse: /Temp/Autosaves/Game/Levels/UEDPCTheShore?Name=Player
+[2017.08.12-06.15.08:791][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Levels/UEDPCTheShore?Name=Player
+[2017.08.12-06.15.08:820][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.12-06.15.08:820][  0]LogMemory: Process Physical Memory: 656.19 MB used, 686.87 MB peak
+[2017.08.12-06.15.08:820][  0]LogMemory: Process Virtual Memory: 731.73 MB used, 731.74 MB peak
+[2017.08.12-06.15.08:820][  0]LogMemory: Physical Memory: 6508.21 MB used,  3730.57 MB free, 10238.78 MB total
+[2017.08.12-06.15.08:820][  0]LogMemory: Virtual Memory: 1276.87 MB used,  3730.57 MB free, 134217728.00 MB total
+[2017.08.12-06.15.08:820][  0]LogMemory: 
+[2017.08.12-06.15.08:821][  0]Allocator Stats for TBB: (not implemented)
+[2017.08.12-06.15.09:078][  0]LogBlueprint:Warning: [BoxDropoff] 'Cylinder2' variable not found. Base class was probably changed.
+[2017.08.12-06.15.09:080][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning Could not find a variable named "Cylinder2" in 'BoxDropoff_C'.
+Make sure 'BoxDropoff_C' has been compiled for  Get Cylinder2
+[2017.08.12-06.15.19:259][  0]LogStats: FPlatformStackWalk::StackWalkAndDump - 10.178 s
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: 
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: Ensure condition failed: pContextTerm != nullptr [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\CallFunctionHandler.cpp] [Line: 384]
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: '/Game/Boxes/BoxDropoff.BoxDropoff:EdGraph_4.K2Node_CallFunction_7' is missing a target input - if this is a server build, the input may be a cosmetic only property which was discarded (if this is the case, and this is expecting component variable try resaving.)
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: Stack: 
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.08.12-06.15.19:259][  0]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!FKCHandler_CallFunction::CreateFunctionCallStatement() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\blueprintgraph\private\callfunctionhandler.cpp:384]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!FKCHandler_CallFunction::Compile() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\blueprintgraph\private\callfunctionhandler.cpp:792]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!FKismetCompilerContext::CompileFunction() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:1790]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!FKismetCompilerContext::Compile() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:3703]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprintInner() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:130]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprint() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:246]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FKismetEditorUtilities::CompileBlueprint() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:827]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::RegenerateBlueprintClass() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:1406]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::RegenerateBlueprintClass() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:395]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeBlueprint() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1430]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3483]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4148]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4370]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3844]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2894]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3041]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1311]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1463]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2571]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2339]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2619]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2339]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateImport() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4293]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveAllImports() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1268]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeBlueprint() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1356]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3483]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4148]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2894]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3041]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!LoadPackageInternalInner() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1311]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!LoadPackage() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1477]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-Engine.dll!UEngine::LoadMap() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\engine\private\unrealengine.cpp:10023]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-Engine.dll!UEngine::Browse() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\engine\private\unrealengine.cpp:9495]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor-Engine.dll!UGameInstance::StartGameInstance() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\engine\private\gameinstance.cpp:416]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Init() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2538]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\launch.cpp:153]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: KERNEL32.DLL!0x00000000BDFB13D2
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: ntdll.dll!0x00000000C09454E4
+[2017.08.12-06.15.19:260][  0]LogOutputDevice:Error: 
+[2017.08.12-06.15.19:271][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.12-06.15.22:435][  0]LogStats:                    SendNewReport -  3.164 s
+[2017.08.12-06.15.22:435][  0]LogStats:             FDebug::EnsureFailed - 13.354 s
+[2017.08.12-06.15.22:436][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning [0043.31] Compile of BoxDropoff successful, but with 1 Warning(s) [in 13,357 ms] (/Game/Boxes/BoxDropoff.BoxDropoff)
+[2017.08.12-06.15.22:436][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning [0043.31] Compile of BoxDropoff successful, but with 2 Warning(s) [in 0 ms] (/Game/Boxes/BoxDropoff.BoxDropoff)
+[2017.08.12-06.15.22:436][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning [0043.31] Compile of BoxDropoff successful, but with 3 Warning(s) [in 0 ms] (/Game/Boxes/BoxDropoff.BoxDropoff)
+[2017.08.12-06.15.22:509][  0]LogBlueprint:Warning: [BoxSpawn] 'DefaultSceneRoot' variable not found. Base class was probably changed.
+[2017.08.12-06.15.22:522][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning Could not find a variable named "DefaultSceneRoot" in 'BoxSpawn_C'.
+Make sure 'BoxSpawn_C' has been compiled for  Get DefaultSceneRoot
+[2017.08.12-06.15.22:529][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning [0043.40] Compile of BoxSpawn successful, but with 1 Warning(s) [in 14 ms] (/Game/Boxes/BoxSpawn.BoxSpawn)
+[2017.08.12-06.15.22:529][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning [0043.40] Compile of BoxSpawn successful, but with 2 Warning(s) [in 0 ms] (/Game/Boxes/BoxSpawn.BoxSpawn)
+[2017.08.12-06.15.22:529][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning [0043.40] Compile of BoxSpawn successful, but with 3 Warning(s) [in 0 ms] (/Game/Boxes/BoxSpawn.BoxSpawn)
+[2017.08.12-06.15.23:422][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning Could not find a variable named "Cylinder2" in 'BoxDropoff_C'.
+Make sure 'BoxDropoff_C' has been compiled for  Get Cylinder2
+[2017.08.12-06.15.23:423][  0]LogBlueprint:Error: [Compiler BoxDropoff] Error The property associated with  Cylinder2  could not be found
+[2017.08.12-06.15.23:432][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning [0044.31] Compile of BoxDropoff failed. 1 Fatal Issue(s) 1 Warning(s) [in 11 ms] (/Game/Boxes/BoxDropoff.BoxDropoff)
+[2017.08.12-06.15.23:432][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning [0044.31] Compile of BoxDropoff failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Boxes/BoxDropoff.BoxDropoff)
+[2017.08.12-06.15.23:437][  0]LogBlueprint:Warning: [Compiler BoxDropoff] Warning [0044.31] Compile of BoxDropoff failed. 1 Fatal Issue(s) 3 Warning(s) [in 4 ms] (/Game/Boxes/BoxDropoff.BoxDropoff)
+[2017.08.12-06.15.23:446][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning Could not find a variable named "DefaultSceneRoot" in 'BoxSpawn_C'.
+Make sure 'BoxSpawn_C' has been compiled for  Get DefaultSceneRoot
+[2017.08.12-06.15.23:449][  0]LogBlueprint:Error: [Compiler BoxSpawn] Error The property associated with  DefaultSceneRoot  could not be found
+[2017.08.12-06.15.23:460][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning [0044.34] Compile of BoxSpawn failed. 1 Fatal Issue(s) 1 Warning(s) [in 20 ms] (/Game/Boxes/BoxSpawn.BoxSpawn)
+[2017.08.12-06.15.23:460][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning [0044.34] Compile of BoxSpawn failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Boxes/BoxSpawn.BoxSpawn)
+[2017.08.12-06.15.23:461][  0]LogBlueprint:Warning: [Compiler BoxSpawn] Warning [0044.34] Compile of BoxSpawn failed. 1 Fatal Issue(s) 3 Warning(s) [in 1 ms] (/Game/Boxes/BoxSpawn.BoxSpawn)
+[2017.08.12-06.16.07:143][  0]LogAIModule: Creating AISystem for world TheShore
+[2017.08.12-06.16.07:152][  0]LogLoad: Game class is 'DeliveryGameMode_C'
+[2017.08.12-06.16.07:291][  0]LogTemp: Generated UWaypointNavigationSystem with 72 nodes
+[2017.08.12-06.16.07:360][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Levels/UEDPCTheShore.TheShore up for play (max tick rate 0) at 2017.08.12-01.16.07
+[2017.08.12-06.16.07:364][  0]LogWorld: Bringing up level for play took: 0.202056
+[2017.08.12-06.16.07:385][  0]LogBlueprintUserMessages: [DeliveryGameMode_C_0] Found # of box spawns: 23
+[2017.08.12-06.16.07:385][  0]LogBlueprintUserMessages: [DeliveryGameMode_C_0] Found # of box dropoffs: 12
+[2017.08.12-06.16.07:400][  0]LogLoad: Took 58.609386 seconds to LoadMap(/Temp/Autosaves/Game/Levels/UEDPCTheShore)
+[2017.08.12-06.16.07:857][  0]LogRenderer: Reallocating scene render targets to support 1024x1024 NumSamples 1 (Frame:2).
+[2017.08.12-06.16.07:857][  0]LogRenderer: Reallocating scene render targets to support 1280x1024 NumSamples 1 (Frame:2).
+[2017.08.12-06.16.07:857][  0]LogLoad: (Engine Initialization) Total time: 88.73 seconds
+[2017.08.12-06.16.07:857][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 14.30 seconds
+[2017.08.12-06.16.07:857][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.12-06.16.07:857][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.12-06.16.07:876][  0]LogOcInput: OculusInput pre-init called
+[2017.08.12-06.16.07:899][  1]LogRenderer: Reallocating scene render targets to support 1024x1024 NumSamples 1 (Frame:2).
+[2017.08.12-06.16.08:048][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:3).
+[2017.08.12-06.16.08:136][  2]LogRenderer: Reallocating scene render targets to support 1024x1024 NumSamples 1 (Frame:4).
+[2017.08.12-06.16.08:150][  3]LogRenderer: Reallocating scene render targets to support 1280x1024 NumSamples 1 (Frame:4).
+[2017.08.12-06.16.08:887][ 43]LogBlueprintUserMessages: [DeliveryGameMode_C_0] 3
+[2017.08.12-06.16.09:887][102]LogBlueprintUserMessages: [DeliveryGameMode_C_0] 2
+[2017.08.12-06.16.10:886][162]LogBlueprintUserMessages: [DeliveryGameMode_C_0] 1
+[2017.08.12-06.16.11:887][222]LogBlueprintUserMessages: [DeliveryGameMode_C_0] 0
+[2017.08.12-06.16.44:864][129]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.12-06.16.44:880][129]LogEngine: All Windows Closed
+[2017.08.12-06.16.44:880][129]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.08.12-06.16.44:891][130]LogMoviePlayer: Shutting down movie player
+[2017.08.12-06.16.45:496][130]LogExit: Preparing to exit.
+[2017.08.12-06.16.46:864][130]LogExit: Game engine shut down
+[2017.08.12-06.16.47:601][130]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.12-06.16.47:601][130]LogExit: Object subsystem successfully closed.
+[2017.08.12-06.16.47:765][130]LogD3D11RHI: Shutdown
+[2017.08.12-06.16.47:765][130]LogD3D11RHI: CleanupD3DDevice
+[2017.08.12-06.16.48:048][130]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.12-06.16.48:253][130]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (266)
+[2017.08.12-06.16.48:253][130]LogModuleManager: Shutting down and abandoning module SequenceRecorder (264)
+[2017.08.12-06.16.48:253][130]LogModuleManager: Shutting down and abandoning module AutomationController (262)
+[2017.08.12-06.16.48:253][130]LogModuleManager: Shutting down and abandoning module AutomationWorker (260)
+[2017.08.12-06.16.48:253][130]LogModuleManager: Shutting down and abandoning module AIModule (258)
+[2017.08.12-06.16.48:260][130]LogModuleManager: Shutting down and abandoning module GameplayDebugger (257)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module AITestSuite (255)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (252)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module MfMediaFactory (250)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (248)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (246)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module Media (245)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module CharacterAI (242)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module SessionServices (240)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (238)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module GeometryCache (236)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (235)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module Niagara (232)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (230)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module PortalServices (228)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module PortalRpc (226)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module MessagingRpc (224)
+[2017.08.12-06.16.48:276][130]LogModuleManager: Shutting down and abandoning module ProfilerService (222)
+[2017.08.12-06.16.48:353][130]LogModuleManager: Shutting down and abandoning module TaskGraph (220)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module SteamVRController (218)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module SteamVR (216)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (214)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module OculusLibrary (212)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module OculusInput (210)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (208)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (206)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module CableComponent (204)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (202)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module HTML5Networking (198)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (196)
+[2017.08.12-06.16.48:365][130]LogModuleManager: Shutting down and abandoning module DesktopPlatform (195)
+[2017.08.12-06.16.48:374][130]LogModuleManager: Shutting down and abandoning module HotReload (193)
+[2017.08.12-06.16.48:383][130]LogDirectoryWatcher: A directory notification for 'C:/Users/Administrator/projects/CC20/Binaries/Win64' was aborted.
+[2017.08.12-06.16.48:407][130]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (192)
+[2017.08.12-06.16.48:407][130]LogModuleManager: Shutting down and abandoning module UObjectPlugin (188)
+[2017.08.12-06.16.48:407][130]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (186)
+[2017.08.12-06.16.48:419][130]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (184)
+[2017.08.12-06.16.48:433][130]LogModuleManager: Shutting down and abandoning module SourceControl (183)
+[2017.08.12-06.16.48:437][130]LogModuleManager: Shutting down and abandoning module CC20 (180)
+[2017.08.12-06.16.48:437][130]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (178)
+[2017.08.12-06.16.48:442][130]LogModuleManager: Shutting down and abandoning module PhysXVehicles (176)
+[2017.08.12-06.16.48:442][130]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (174)
+[2017.08.12-06.16.48:442][130]LogModuleManager: Shutting down and abandoning module UdpMessaging (172)
+[2017.08.12-06.16.48:542][130]LogModuleManager: Shutting down and abandoning module TcpMessaging (170)
+[2017.08.12-06.16.48:651][130]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (168)
+[2017.08.12-06.16.48:651][130]LogModuleManager: Shutting down and abandoning module FacialAnimation (166)
+[2017.08.12-06.16.48:651][130]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (164)
+[2017.08.12-06.16.48:651][130]LogModuleManager: Shutting down and abandoning module Paper2D (162)
+[2017.08.12-06.16.48:651][130]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (160)
+[2017.08.12-06.16.48:674][130]LogModuleManager: Shutting down and abandoning module WmfMedia (158)
+[2017.08.12-06.16.48:688][130]LogModuleManager: Shutting down and abandoning module MfMedia (156)
+[2017.08.12-06.16.48:688][130]LogModuleManager: Shutting down and abandoning module MediaAssets (154)
+[2017.08.12-06.16.48:688][130]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (152)
+[2017.08.12-06.16.48:698][130]LogModuleManager: Shutting down and abandoning module VREditor (150)
+[2017.08.12-06.16.48:698][130]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (148)
+[2017.08.12-06.16.48:698][130]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2017.08.12-06.16.48:720][130]LogModuleManager: Shutting down and abandoning module FunctionalTesting (144)
+[2017.08.12-06.16.48:720][130]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (142)
+[2017.08.12-06.16.48:725][130]LogModuleManager: Shutting down and abandoning module UMG (140)
+[2017.08.12-06.16.48:734][130]LogModuleManager: Shutting down and abandoning module UMGEditor (139)
+[2017.08.12-06.16.48:780][130]LogModuleManager: Shutting down and abandoning module Sequencer (138)
+[2017.08.12-06.16.48:808][130]LogModuleManager: Shutting down and abandoning module AssetTools (136)
+[2017.08.12-06.16.48:826][130]LogModuleManager: Shutting down and abandoning module MessageLog (135)
+[2017.08.12-06.16.48:826][130]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (134)
+[2017.08.12-06.16.48:826][130]LogModuleManager: Shutting down and abandoning module SlateReflector (128)
+[2017.08.12-06.16.48:848][130]LogModuleManager: Shutting down and abandoning module Slate (126)
+[2017.08.12-06.16.48:848][130]LogModuleManager: Shutting down and abandoning module EditorStyle (124)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module Messaging (122)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (120)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (118)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module XAudio2 (116)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module Networking (114)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module Core (110)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module KismetCompiler (108)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module PhysXFormats (106)
+[2017.08.12-06.16.48:859][130]LogModuleManager: Shutting down and abandoning module MeshUtilities (104)
+[2017.08.12-06.16.48:871][130]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (103)
+[2017.08.12-06.16.48:879][130]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (101)
+[2017.08.12-06.16.48:879][130]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (99)
+[2017.08.12-06.16.48:880][130]LogModuleManager: Shutting down and abandoning module PropertyEditor (97)
+[2017.08.12-06.16.48:880][130]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2017.08.12-06.16.48:880][130]LogModuleManager: Shutting down and abandoning module DerivedDataCache (92)
+[2017.08.12-06.16.49:057][130]LogDerivedDataCache: Shutdown
+[2017.08.12-06.16.49:057][130]LogModuleManager: Shutting down and abandoning module TargetPlatform (90)
+[2017.08.12-06.16.49:057][130]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (89)
+[2017.08.12-06.16.49:062][130]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (87)
+[2017.08.12-06.16.49:068][130]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (85)
+[2017.08.12-06.16.49:074][130]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (83)
+[2017.08.12-06.16.49:084][130]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (81)
+[2017.08.12-06.16.49:084][130]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (79)
+[2017.08.12-06.16.49:084][130]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (77)
+[2017.08.12-06.16.49:093][130]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (75)
+[2017.08.12-06.16.49:111][130]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (73)
+[2017.08.12-06.16.49:111][130]LogModuleManager: Shutting down and abandoning module ImageWrapper (72)
+[2017.08.12-06.16.49:111][130]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (69)
+[2017.08.12-06.16.49:111][130]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (67)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (63)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (61)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (59)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (57)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (55)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.08.12-06.16.49:119][130]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.08.12-06.16.49:120][130]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.08.12-06.16.49:120][130]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.08.12-06.16.49:120][130]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.08.12-06.16.49:120][130]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.08.12-06.16.49:120][130]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.12-06.16.49:129][130]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.08.12-06.16.49:147][130]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.08.12-06.16.49:176][130]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.08.12-06.16.49:187][130]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.12-06.16.49:188][130]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.12-06.16.49:202][130]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.12-06.16.49:202][130]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.12-06.16.49:202][130]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.12-06.16.49:218][130]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.12-06.16.49:218][130]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.12-06.16.49:219][130]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.12-06.16.49:235][130]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.12-06.16.49:235][130]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.12-06.16.49:235][130]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.12-06.16.49:235][130]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.12-06.16.49:236][130]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.12-06.16.49:237][130]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.12-06.16.49:237][130]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.12-06.16.49:242][130]LogExit: Exiting.
+[2017.08.12-06.16.49:246][130]Log file closed, 08/12/17 01:16:49
